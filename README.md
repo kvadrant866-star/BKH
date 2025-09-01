@@ -1,18 +1,3 @@
-Пример .env файла
-APP_NAME=banner_service
-HOST=0.0.0.0
-PORT=8080
-
-FLUSH_INTERVAL=1
-NUM_SHARDS=64
-
-DB_HOST=${APP_NAME}_DB
-DB_PORT=5432
-DB_NAME=banner
-DB_USER=postgres
-DB_PASSWORD=postgres
-
-
 Запуск:
 docker compose up --build -d
 
